@@ -79,9 +79,13 @@ list-style-type: none;
 .nav:hover {
 	opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
-    color: yellow;
 }
 
+/*custom mouse*/
+
+body {
+	cursor: url('http://static1.squarespace.com/static/5446e19be4b090557e5db038/t/5781e116f7e0aba104d26d3e/1468129558387/cursor2.png'), auto !important;
+}
 
 /*collage*/
 
@@ -198,15 +202,15 @@ h3 {
 	padding: 0px 30px 0px 30px;
 }
 
-/*#overlay {
+#overlay {
   position: fixed;
-  top: 0;
+  /*top: 0;
   left: 0;
   z-index: 98;
   height: 100%;
   width: 100%;
   background: #ffffff;
-  opacity: 0.6;
+  opacity: 0.6;*/
   display: none;
 }
 
@@ -233,7 +237,7 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
-}*/
+}
 
 
 
@@ -467,8 +471,14 @@ h3 {
 
 #history {
 	background-color: #456990;
-	padding-bottom: 200px;
+	border-bottom: 30px;
 	overflow: hidden;
+	padding-bottom: 300px;
+}
+
+time {
+	font-family: "Helvetica", sans-serif;
+	font-size: 25px;
 }
 
 .timeline ul li {
@@ -538,10 +548,13 @@ h3 {
 	padding-bottom: 15px;
 }
 
-time {
-	font-family: "Helvetica", sans-serif;
-	font-size: 25px;
+#spotify {
+	background-color: #D3D3D3;
+	padding-bottom: 300px;
+	overflow: hidden;
 }
+
+
 
 
  

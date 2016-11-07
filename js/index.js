@@ -18,17 +18,17 @@ $(document).ready(function () {
 
 // youtube videos
 
-// $('#btn').click(function() {
-//   $('#video, #overlay').fadeIn('slow');
-//   $('#video-container').html('<iframe width=560 height=315 src=https://www.youtube.com/watch?v=VzpP0KbjHU8 frameborder=0 allowfullscreen></iframe>');
-// });
+$('.play').click(function() {
+ $('#video, #overlay').fadeIn('slow');
+ $('#video-container').html('<iframe "width=560" "height=315" "src=https://www.youtube.com/embed/VzpP0KbjHU8" "frameborder=0 allowfullscreen></iframe>"');
+});
 
-// $(document).on('touchend, mouseup', function(e) {
-//   if (!$('#video').is(e.target)) {
-//     $('#video, #overlay').fadeOut('slow');
-//     $('#video-container').html('');
-//   }
-// });
+$(document).on('touchend, mouseup', function(e) {
+  if (!$('#video').is(e.target)) {
+    $('#video, #overlay').fadeOut('slow');
+    $('#video-container').html('');
+  }
+});
 
 // $('#btn2').click(function() {
 //   alert('video is not visible');
