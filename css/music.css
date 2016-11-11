@@ -1,0 +1,441 @@
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+	margin: 0;
+	padding: 0;
+}
+
+.diana {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.diana_ross_top {
+	overflow: hidden;
+	height: 100px;
+	background-color: black;
+	height: 500px;
+}
+
+/*#background {
+      background: #000000;
+      border:1px solid black;
+}*/
+
+.diana_ross_image {
+	margin: 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/diana ross 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.diana_ross_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	margin: 80px;
+}
+
+.four_tops {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.four_tops_top {
+	overflow: hidden;
+	background-color: black;
+	height: 600px;
+}
+
+.four_tops_image {
+	margin: 140px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/the four tops 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right center;
+}
+
+.four_tops_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	margin: 90px;
+}
+
+.smokey_robinson {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.smokey_robinson_top {
+	overflow: hidden;
+	background-color: black;
+	height: 580px;
+}
+
+.smokey_robinson_image {
+	margin: 100px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/smokey robinson 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right center;
+}
+
+.smokey_robinson_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	margin: 90px;
+}
+
+.marvin_gaye {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.marvin_gaye_top {
+	overflow: hidden;
+	background-color: black;
+	height: 710px;
+}
+
+.marvin_gaye_image {
+	margin: 100px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/marvin gaye 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right center;
+}
+
+.marvin_gaye_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 95px;
+	overflow: hidden;
+}
+
+.the_temptations {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.the_temptations_top {
+	overflow: hidden;
+	background-color: black;
+	height: 710px;
+}
+
+.the_temptations_image {
+	margin: 175px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/the temptations 2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.the_temptations_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 95px;
+	overflow: hidden;
+}
+
+.al_green {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.al_green_top {
+	overflow: hidden;
+	background-color: black;
+	height: 850px;
+}
+
+.al_green_image {
+	margin: 175px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/al green 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.al_green_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 95px;
+	overflow: hidden;
+}
+
+.barbara_mcnair {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.barbara_mcnair_top {
+	overflow: hidden;
+	background-color: black;
+	height: 870px;
+}
+
+.barbara_mcnair_image {
+	margin: 175px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/barbara mcnair 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.barbara_mcnair_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 95px;
+	overflow: hidden;
+}
+
+.lionel_richie {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.lionel_richie_top {
+	overflow: hidden;
+	background-color: black;
+	height: 625px;
+}
+
+.lionel_richie_image {
+	margin: 150px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/lionel richie 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.lionel_richie_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 95px;
+	overflow: hidden;
+}
+
+.syreeta_wright {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.syreeta_wright_top {
+	overflow: hidden;
+	background-color: black;
+	height: 600px;
+}
+
+.syreeta_wright_image {
+	margin: 125px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/syreeta wright 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.syreeta_wright_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 95px;
+	overflow: hidden;
+}
+
+.the_pointer_sisters {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.the_pointer_sisters_top {
+	overflow: hidden;
+	background-color: black;
+	height: 650px;
+}
+
+.the_pointer_sisters_image {
+	margin: 125px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/the pointer sisters 2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.the_pointer_sisters_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 95px;
+}
+
+.stevie_wonder {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.stevie_wonder_top {
+	overflow: hidden;
+	background-color: black;
+	height: 600px;
+}
+
+.stevie_wonder_image {
+	margin: 125px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/stevie wonder 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.stevie_wonder_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	margin: 115px;
+}
+
+.the_jackson_five {
+	font-family: "Raleway" , sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-color: black;
+	text-align: center;
+	padding: 40px;
+}
+
+.the_jackson_five_top {
+	overflow: hidden;
+	background-color: black;
+	height: 1000px;
+}
+
+.the_jackson_five_image {
+	margin: 250px 100px 100px 100px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-image: url("../images/the jackson 5 2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.the_jackson_five_description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin: 140px;
+	overflow: hidden;
+	line-height: 150%;
+}

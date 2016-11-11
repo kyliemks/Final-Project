@@ -1,26 +1,26 @@
 * {
-  -moz-box-sizing: border-box; /* Firexfox */
-  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-  box-sizing: border-box; /* IE */
-  margin: 0;
-  padding: 0;
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+	margin: 0;
+	padding: 0;
 }
 
 .round {
-  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
-  -webkit-border-radius: 12px; 
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+	-webkit-border-radius: 12px; 
 
-  /* Firefox 1-3.6 */
-  -moz-border-radius: 12px; 
-  
-  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
-  border-radius: 12px; 
+	/* Firefox 1-3.6 */
+	-moz-border-radius: 12px; 
+
+	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+	border-radius: 12px; 
 }
 
 /*navigation bar*/
 
 .motown-records {
-	color: gray;
+	color: #faebd7;
 	font-size: 35px;
 	font-weight: 700;
 	font-family: 'Raleway', sans-serif;
@@ -31,22 +31,18 @@
 
 .motown-records:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    color: white;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	color: white;
 }
 
- a:visited, a:link {
+a:visited, a:link {
 	color: #fff;
-  text-decoration: none;
-}
-
-a.startup-matchmaker:link, a.startup-matchmaker:visited {
-	color: #fdf731;
+	text-decoration: none;
 }
 
 header { 
 	border-top: solid 8px #fff;
-	background-color: #ADD8E6;
+	background-color: #456990; /*#ADD8E6*/
 	overflow: hidden;
 	border-bottom: solid 8px #fff;
 	padding-top: 25px;
@@ -73,12 +69,12 @@ header {
 }
 
 ul li {
-list-style-type: none;
+	list-style-type: none;
 }
 
 .nav:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 /*custom mouse*/
@@ -101,7 +97,7 @@ body {
 /*marvin gaye quote*/
 
 .tagline-main {
-	background-color: #ADD8E6;
+	background-color: #456990;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-weight: 700;
@@ -165,9 +161,9 @@ h3 {
 #parent-container{
 	overflow: hidden;
 	width: 100%;
-  height: 100%;
-  position: relative;
-  text-align: center;
+	height: 100%;
+	position: relative;
+	text-align: center;
 }
 
 .circle{
@@ -187,14 +183,14 @@ h3 {
 
 .circle_1:hover {
 	opacity: 0.3;
-    filter: alpha(opacity=30); /* For IE8 and earlier */
+	filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
 .divbutton {
 	height: 100px;
-    margin-top: 162px;
-    padding: 10px 30px 10px 30px;
-    font-family: "Raleway", sans-serif;
+	margin-top: 162px;
+	padding: 10px 30px 10px 30px;
+	font-family: "Raleway", sans-serif;
 }
 
 .play {
@@ -203,7 +199,7 @@ h3 {
 }
 
 #overlay {
-  position: fixed;
+	position: fixed;
   /*top: 0;
   left: 0;
   z-index: 98;
@@ -215,57 +211,31 @@ h3 {
 }
 
 #video {
-  display: none;
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  width: 80%;
-  z-index: 99;
+	display: none;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	z-index: 99;
 }
 
 #video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
 }
 
 #video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .circle_2 {
-    /*background-color: #fff;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
-	margin: 80px 50px 0px 20px;
-	float: left;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/the four tops.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -274,17 +244,10 @@ h3 {
 
 .circle_2:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_3 {
-   /*background-color: #fff;
-	margin: 80px 60px 0px 25px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/smokey robinson.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -293,17 +256,10 @@ h3 {
 
 .circle_3:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_4 {
-   /*background-color: #fff;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
-	margin: 140px 60px 0px 70px;
-	float: left;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/marvin gaye.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -312,17 +268,10 @@ h3 {
 
 .circle_4:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_5 {
-   /*background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	margin: 140px 50px 0px 20px;
-	float: left;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/the temptations.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -330,17 +279,10 @@ h3 {
 
 .circle_5:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_6 {
-    /*background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	margin: 140px 60px 0px 25px;
-	float: left;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/al green.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -349,17 +291,10 @@ h3 {
 
 .circle_6:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_7 {
-  /*background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	float: left;
-	margin: 140px 60px 0px 70px;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/barbara mcnair.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -368,17 +303,10 @@ h3 {
 
 .circle_7:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_8 {
- /*   background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	margin: 140px 50px 0px 20px;
-	float: left;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/lionel richie.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -387,17 +315,10 @@ h3 {
 
 .circle_8:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_9 {
-/* background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	margin: 140px 60px 0px 25px;
-	float: left;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/syreeta wright.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -406,17 +327,10 @@ h3 {
 
 .circle_9:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_10 {
-   /*background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	margin: 140px 60px 0px 70px;
-	float: left;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/the pointer sisters.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -425,18 +339,11 @@ h3 {
 
 .circle_10:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_11 {
-  /* background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	margin: 140px 50px 0px 20px;
-	float: left;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
-	background-image: url("../images/berry gordy.jpg");
+	background-image: url("../images/stevie wonder.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -444,17 +351,10 @@ h3 {
 
 .circle_11:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
 
 .circle_12 {
-   /*background-color: #fff;
-	width: 25%;
-	padding-bottom: 300px;
-	margin: 140px 60px 0px 25px;
-	float: left;
-	border-radius: 150px;*/
-	/*border: solid 8px gray;*/
 	background-image: url("../images/jackson 5.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -463,9 +363,8 @@ h3 {
 
 .circle_12:hover {
 	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	filter: alpha(opacity=50); 
 }
-
 
 /*timeline*/
 
@@ -482,76 +381,81 @@ time {
 }
 
 .timeline ul li {
-  list-style-type: none;
-  position: relative;
-  width: 6px;
-  margin: 0 auto;
-  padding-top: 50px;
-  background: #fff;
+	list-style-type: none;
+	position: relative;
+	width: 6px;
+	margin: 0 auto;
+	padding-top: 50px;
+	background: #fff;
 }
 
 .timeline ul li::after {
-  background: #fff;
-  transition: background .5s ease-in-out;
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: inherit;
+	background: #faebd7;
+	transition: background .5s ease-in-out;
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: inherit;
 }
 
 .timeline ul li div {
-  position: relative;
-  bottom: 0;
-  width: 400px;
-  padding: 15px;
-  background: #000;
-	}
- 
+	position: relative;
+	bottom: 0;
+	width: 400px;
+	padding: 15px;
+	background: #000;
+}
+
 .timeline ul li div::before {
-  content: '';
-  position: absolute;
-  bottom: 7px;
-  width: 0;
-  height: 0;
-  border-style: solid;
+	content: '';
+	position: absolute;
+	bottom: 7px;
+	width: 0;
+	height: 0;
+	border-style: solid;
 }
 
 .timeline ul li:nth-child(odd) div {
-  	left: 45px;
+	left: 45px;
 }
- 
+
 .timeline ul li:nth-child(odd) div::before {
-  left: -15px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent #000 transparent transparent;
+	left: -15px;
+	border-width: 8px 16px 8px 0;
+	border-color: transparent #000 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
-  left: -439px;
+	left: -439px;
 }
- 
+
 .timeline ul li:nth-child(even) div::before {
-  right: -15px;
-  border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #000;
+	right: -15px;
+	border-width: 8px 0 8px 16px;
+	border-color: transparent transparent transparent #000;
 } 
 
 .spacing {
 	font-family: "Helvetica", sans-serif;
 	font-size: 15px;
-	color: white;
+	color: gray;
 	padding-bottom: 15px;
 }
 
-#spotify {
+#playlists {
 	background-color: #D3D3D3;
-	padding-bottom: 300px;
+	padding: 50px 0px 50px 180px;
 	overflow: hidden;
+	margin-top: 150px;
+}
+
+#contact_form {
+
 }
 
 
