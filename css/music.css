@@ -6,6 +6,43 @@
 	padding: 0;
 }
 
+#overlay {
+	position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  opacity: 0.6;
+  display: none;
+}
+
+#video {
+	display: none;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	z-index: 99;
+}
+
+#video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+#video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .diana {
 	font-family: "Raleway" , sans-serif;
 	font-size: 50px;
@@ -21,11 +58,6 @@
 	background-color: black;
 	height: 500px;
 }
-
-/*#background {
-      background: #000000;
-      border:1px solid black;
-}*/
 
 .diana_ross_image {
 	margin: 100px;
@@ -354,7 +386,7 @@
 	border-radius: 50%;
 	height: 325px;
 	width: 25%;
-	background-image: url("../images/the pointer sisters 2.jpeg");
+	background-image: url("../images/the pointer sisters 2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -415,11 +447,11 @@
 .the_jackson_five_top {
 	overflow: hidden;
 	background-color: black;
-	height: 1000px;
+	height: 700px;
 }
 
 .the_jackson_five_image {
-	margin: 250px 100px 100px 100px;
+	margin: 180px 100px 100px 100px;
 	float: left;
 	border-radius: 50%;
 	height: 325px;
@@ -439,3 +471,5 @@
 	overflow: hidden;
 	line-height: 150%;
 }
+
+
