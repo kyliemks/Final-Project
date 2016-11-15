@@ -6,6 +6,18 @@
 	padding: 0;
 }
 
+.clearfix:after {
+ content: ".";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
+}
+
+/*video styles
+*/
+
 #overlay {
 	position: fixed;
   top: 0;
@@ -43,25 +55,65 @@
 	height: 100%;
 }
 
+/*background */
+
+.top {
+	overflow: hidden;
+	background-color: black;
+	height: 533px;
+}
+
+/*artists image*/
+
+.image {
+	margin: 65px 65px 0px 95px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left center;
+	border: 1px solid #fff;
+}
+
+/*play button for video popup*/
+
+.button {
+  background-color: #c6c6c6;
+  border-radius: 10px;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 0px 280px 20px 165px;
+  clear: both;
+  width: 10%;
+}
+
+/*container for description and image*/
+
+.musicians_container {
+	margin: 5px 25px -20px 25px;
+	width: 100%;
+	overflow: hidden;
+	float: right;
+}
+
+/*diana ross
+*/
+
 .diana {
 	font-family: "Raleway" , sans-serif;
 	font-size: 50px;
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.diana_ross_top {
-	overflow: hidden;
-	height: 100px;
-	background-color: black;
-	height: 500px;
+	padding: 10px;
 }
 
 .diana_ross_image {
-	margin: 100px;
-	float: left;
+	margin: 65px 65px 0px 95px;
 	border-radius: 50%;
 	height: 325px;
 	width: 25%;
@@ -69,15 +121,22 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
+	float: left;
 }
 
 .diana_ross_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 80px;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*the four tops
+*/
 
 .four_tops {
 	font-family: "Raleway" , sans-serif;
@@ -85,17 +144,11 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.four_tops_top {
-	overflow: hidden;
-	background-color: black;
-	height: 600px;
+	padding: 10px;
 }
 
 .four_tops_image {
-	margin: 140px 100px 100px 100px;
+	margin: 65px 65px 0px 95px;
 	float: left;
 	border-radius: 50%;
 	height: 325px;
@@ -111,8 +164,13 @@
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
 	font-style: italic;
-	margin: 90px;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*smokey robinson*/
 
 .smokey_robinson {
 	font-family: "Raleway" , sans-serif;
@@ -120,25 +178,11 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.smokey_robinson_top {
-	overflow: hidden;
-	background-color: black;
-	height: 580px;
+	padding: 10px;
 }
 
 .smokey_robinson_image {
-	margin: 100px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/smokey robinson 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top right center;
 }
 
 .smokey_robinson_description {
@@ -146,8 +190,13 @@
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
 	font-style: italic;
-	margin: 90px;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*marvin gaye*/
 
 .marvin_gaye {
 	font-family: "Raleway" , sans-serif;
@@ -155,35 +204,25 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.marvin_gaye_top {
-	overflow: hidden;
-	background-color: black;
-	height: 710px;
+	padding: 10px;
 }
 
 .marvin_gaye_image {
-	margin: 100px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/marvin gaye 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top right center;
 }
 
 .marvin_gaye_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 95px;
-	overflow: hidden;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*the temptations*/
 
 .the_temptations {
 	font-family: "Raleway" , sans-serif;
@@ -191,35 +230,25 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.the_temptations_top {
-	overflow: hidden;
-	background-color: black;
-	height: 710px;
+	padding: 10px;
 }
 
 .the_temptations_image {
-	margin: 175px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/the temptations 2.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
 }
 
 .the_temptations_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 95px;
-	overflow: hidden;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*al green*/
 
 .al_green {
 	font-family: "Raleway" , sans-serif;
@@ -227,35 +256,25 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.al_green_top {
-	overflow: hidden;
-	background-color: black;
-	height: 850px;
+	padding: 10px;
 }
 
 .al_green_image {
-	margin: 175px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/al green 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
 }
 
 .al_green_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 95px;
-	overflow: hidden;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*barbara mcnair*/
 
 .barbara_mcnair {
 	font-family: "Raleway" , sans-serif;
@@ -263,35 +282,25 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.barbara_mcnair_top {
-	overflow: hidden;
-	background-color: black;
-	height: 870px;
+	padding: 10px;
 }
 
 .barbara_mcnair_image {
-	margin: 175px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/barbara mcnair 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
 }
 
 .barbara_mcnair_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 95px;
-	overflow: hidden;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*lionel richie*/
 
 .lionel_richie {
 	font-family: "Raleway" , sans-serif;
@@ -299,35 +308,26 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.lionel_richie_top {
-	overflow: hidden;
-	background-color: black;
-	height: 625px;
+	padding: 10px;
 }
 
 .lionel_richie_image {
-	margin: 150px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/lionel richie 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right center;
+
 }
 
 .lionel_richie_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 95px;
-	overflow: hidden;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*syreeta wright*/
 
 .syreeta_wright {
 	font-family: "Raleway" , sans-serif;
@@ -335,35 +335,25 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.syreeta_wright_top {
-	overflow: hidden;
-	background-color: black;
-	height: 600px;
+	padding: 10px;
 }
 
 .syreeta_wright_image {
-	margin: 125px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/syreeta wright 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right center;
 }
 
 .syreeta_wright_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 95px;
-	overflow: hidden;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*the pointer sisters*/
 
 .the_pointer_sisters {
 	font-family: "Raleway" , sans-serif;
@@ -371,34 +361,25 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.the_pointer_sisters_top {
-	overflow: hidden;
-	background-color: black;
-	height: 650px;
+	padding: 10px;
 }
 
 .the_pointer_sisters_image {
-	margin: 125px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/the pointer sisters 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right center;
 }
 
 .the_pointer_sisters_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 95px;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*stevie wonder*/
 
 .stevie_wonder {
 	font-family: "Raleway" , sans-serif;
@@ -406,34 +387,25 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.stevie_wonder_top {
-	overflow: hidden;
-	background-color: black;
-	height: 600px;
+	padding: 10px;
 }
 
 .stevie_wonder_image {
-	margin: 125px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/stevie wonder 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right center;
 }
 
 .stevie_wonder_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 115px;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
+/*the jackson five*/
 
 .the_jackson_five {
 	font-family: "Raleway" , sans-serif;
@@ -441,35 +413,23 @@
 	font-style: italic;
 	font-color: black;
 	text-align: center;
-	padding: 40px;
-}
-
-.the_jackson_five_top {
-	overflow: hidden;
-	background-color: black;
-	height: 700px;
+	padding: 10px;
 }
 
 .the_jackson_five_image {
-	margin: 180px 100px 100px 100px;
-	float: left;
-	border-radius: 50%;
-	height: 325px;
-	width: 25%;
 	background-image: url("../images/the jackson 5 2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right center;
 }
 
 .the_jackson_five_description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-style: italic;
-	margin: 140px;
-	overflow: hidden;
-	line-height: 150%;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
 }
+
 
 

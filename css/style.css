@@ -77,7 +77,7 @@ ul li {
 	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-/*custom mouse*/
+/*custom mouse cursor*/
 
 body {
 	cursor: url('http://static1.squarespace.com/static/5446e19be4b090557e5db038/t/5781e116f7e0aba104d26d3e/1468129558387/cursor2.png'), auto !important;
@@ -85,14 +85,52 @@ body {
 
 /*collage*/
 
-.hero-image {
+#switcher {
+  margin: 400px 0px 100px 525px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 3px solid white;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#switcher li.active {
+  border-color: yellow;
+}
+
+#grayButton {
+  background: transparent;
+}
+
+#whiteButton {
+  background: transparent;
+}
+
+.collage {
 	background-image: url("../images/faces.jpg");
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	overflow: hidden;
 }
 
+.museum {
+	background-image: url("../images/hitsville museum.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
 
 /*marvin gaye quote*/
 
@@ -158,6 +196,7 @@ h3 {
 }
 
 /*circles*/
+
 #parent-container{
 	overflow: hidden;
 	width: 100%;
@@ -165,10 +204,11 @@ h3 {
 	position: relative;
 	text-align: center;
 	margin-left: 30px;
+	margin-top: 30px;
 }
 
 .circle{
-	margin: 46px;
+	margin: 55px 45px 30px 45px;
 	float: left;
 	border-radius: 50%;
 	height: 325px;
@@ -199,21 +239,8 @@ a span {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+
 }
-
-/*.divbutton {
-	height: 100px;
-	margin-top: 162px;
-	padding: 10px 30px 10px 30px;
-	font-family: "Raleway", sans-serif;
-}
-
-.play {
-	font-family: "Raleway", sans-serif;
-	padding: 0px 30px 0px 30px;
-}*/
-
-
 
 .circle_2 {
 	background-image: url("../images/the four tops.jpg");
@@ -274,7 +301,7 @@ a span {
 	background-image: url("../images/the pointer sisters.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top right center;
 }
 
 .circle_11 {
@@ -295,20 +322,20 @@ a span {
 
 #history {
 	background-color: #456990;
-	border-bottom: 30px;
 	overflow: hidden;
-	padding-bottom: 300px;
 }
 
 time {
 	font-family: "Helvetica", sans-serif;
-	font-size: 25px;
+	font-size: 40px;
 }
+
+/*timeline element styles*/
 
 .timeline ul li {
 	list-style-type: none;
 	position: relative;
-	width: 6px;
+	width: 4px;
 	margin: 0 auto;
 	padding-top: 50px;
 	background: #fff;
@@ -365,6 +392,70 @@ time {
 	border-color: transparent transparent transparent #000;
 } 
 
+/*Hiding and revealing*/
+
+.timeline ul li::after {
+  background: #fff;
+  transition: background .5s ease-in-out;
+}
+ 
+.timeline ul li.in-view::after {
+  background: #fff;
+}
+ 
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+ 
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px,0,0);
+}
+ 
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px,0,0);
+}
+ 
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*interactivity for the timeline*/
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+   
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+   
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+
+/*playlists section*/
+
 .spacing {
 	font-family: "Helvetica", sans-serif;
 	font-size: 15px;
@@ -379,10 +470,95 @@ time {
 	margin-top: 150px;
 }
 
-#contact_form {
+/*footer with contact form*/
 
+footer {
+	background-color: black;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
+.rectangle {
+  	background-color: rgba(255, 255, 255, 0.90);
+  	width: 70%;
+  	margin-left: 180px;
+  	padding-bottom: 170px;
+  	border-radius: 25px;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	padding: 80px 25px 40px 110px;
+	font-size: 35px;
+}
+
+.subscribe-pitch {
+	font-family: 'Raleway', sans-serif;
+	padding: 0px 25px 0px 110px;
+	font-size: 18px;
+	color: gray;
+}
+
+.me {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 110px;
+	font-size: 18px;
+	color: gray;
+	margin-top: 80px;
+}
+
+#name {
+	padding-bottom: 20px;
+	width: 35%;
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+.gmail {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: gray;
+	float: right;
+	margin-right: 387px;
+	margin-top: -19px;
+}
+
+#email {
+	padding-bottom: 20px;
+	width: 35%;
+	float: right;
+	margin-right: 120px;
+	margin-top: -38px;
+}
+
+.lingo {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 110px;
+	font-size: 18px;
+	color: gray;
+	margin-top: 80px;
+}
+
+#message {
+	padding-bottom: 150px;
+	width: 74.5%;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 110px;
+}
+
+.send {
+	padding: 20px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 110px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #ADD8E6;
+	font-size: 15px;
+}
 
 
 
