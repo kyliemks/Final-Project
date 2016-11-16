@@ -56,6 +56,7 @@ $(".send").on("click" , function() {
 });
 
 // youtube videos
+
 var vidSrc;
 $('.button').on('click', function() {
 	vidSrc = $(this).attr("data-src");
@@ -63,60 +64,6 @@ $('.button').on('click', function() {
 	$('#video-container').html('<iframe width="560" height="315" src="'+vidSrc+'" frameborder="0" allowfullscreen></iframe>');
 });
 
-$('.button_2').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/pvEoR4QywgE" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_3').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/pKQtWMETbfo" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_4').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/6kduvcqx-BU" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_5').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/XYPE7rZkYRg" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_6').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/sCXEtvbJkkY" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_7').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/vZjcM4yEgXg" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_8').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/nqAvFx3NxUM" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_9').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/zc7rxcjwwYs" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_10').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/8iwBM_YB1sE" frameborder="0" allowfullscreen></iframe>');
-});
-
-$('.button_11').on('click', function() {
-	$('#video, #overlay').fadeIn('slow');
-	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/RS2nfeN4DEw" frameborder="0" allowfullscreen></iframe>');
-});
-
-// $('.button_12').on('click', function() {
-// 	$('#video, #overlay').fadeIn('slow');
-// 	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/a0l112Qy4yA" frameborder="0" allowfullscreen></iframe>');
-// });
 
 // rotating circle around each artist profile
 

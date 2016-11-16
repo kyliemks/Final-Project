@@ -73,7 +73,7 @@
 	width: 25%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: left center;
+	background-position: center;
 	border: 1px solid #fff;
 }
 
@@ -103,11 +103,9 @@
 /*diana ross
 */
 
-.diana {
-	font-family: "Raleway" , sans-serif;
+header {
+	font-family: 'Monoton', cursive;
 	font-size: 50px;
-	font-style: italic;
-	font-color: black;
 	text-align: center;
 	padding: 10px;
 }
@@ -138,11 +136,9 @@
 /*the four tops
 */
 
-.four_tops {
-	font-family: "Raleway" , sans-serif;
+.typeface {
+	font-family: 'Monoton', cursive;
 	font-size: 50px;
-	font-style: italic;
-	font-color: black;
 	text-align: center;
 	padding: 10px;
 }
@@ -172,14 +168,6 @@
 
 /*smokey robinson*/
 
-.smokey_robinson {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
 
 .smokey_robinson_image {
 	background-image: url("../images/smokey robinson 2.jpg");
@@ -198,15 +186,6 @@
 
 /*marvin gaye*/
 
-.marvin_gaye {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
-
 .marvin_gaye_image {
 	background-image: url("../images/marvin gaye 2.jpg");
 }
@@ -223,15 +202,6 @@
 }
 
 /*the temptations*/
-
-.the_temptations {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
 
 .the_temptations_image {
 	background-image: url("../images/the temptations 2.jpg");
@@ -250,15 +220,6 @@
 
 /*al green*/
 
-.al_green {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
-
 .al_green_image {
 	background-image: url("../images/al green 2.jpg");
 }
@@ -276,15 +237,6 @@
 
 /*barbara mcnair*/
 
-.barbara_mcnair {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
-
 .barbara_mcnair_image {
 	background-image: url("../images/barbara mcnair 2.jpg");
 }
@@ -301,15 +253,6 @@
 }
 
 /*lionel richie*/
-
-.lionel_richie {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
 
 .lionel_richie_image {
 	background-image: url("../images/lionel richie 2.jpg");
@@ -329,15 +272,6 @@
 
 /*syreeta wright*/
 
-.syreeta_wright {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
-
 .syreeta_wright_image {
 	background-image: url("../images/syreeta wright 2.jpg");
 }
@@ -354,15 +288,6 @@
 }
 
 /*the pointer sisters*/
-
-.the_pointer_sisters {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
 
 .the_pointer_sisters_image {
 	background-image: url("../images/the pointer sisters 2.jpg");
@@ -381,15 +306,6 @@
 
 /*stevie wonder*/
 
-.stevie_wonder {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
-
 .stevie_wonder_image {
 	background-image: url("../images/stevie wonder 2.jpg");
 }
@@ -407,15 +323,6 @@
 
 /*the jackson five*/
 
-.the_jackson_five {
-	font-family: "Raleway" , sans-serif;
-	font-size: 50px;
-	font-style: italic;
-	font-color: black;
-	text-align: center;
-	padding: 10px;
-}
-
 .the_jackson_five_image {
 	background-image: url("../images/the jackson 5 2.jpg");
 }
@@ -430,6 +337,3 @@
 	margin: 60px 30px 50px 25px;
 	line-height: 27px;
 }
-
-
-
