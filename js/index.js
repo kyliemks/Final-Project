@@ -8,130 +8,115 @@ $("nav a").on("click", function(){
 	});
 });
 
-// switch the hero image to another ***not working
-
-$('#grayButton').on('click', function(){
-	$('.hero-image').css('background-image','../images/hitsville museum.jpg');
-	$('li').removeClass('active');
-	$('#grayButton').addClass('active');
-});
+// switch the hero image to another 
 
 $('#whiteButton').on('click', function(){
-	$('.hero-image').css('background-image','../images/faces.jpg');
+	$('.collage').css('background-image','url("images/faces.jpg")');
 	$('li').removeClass('active');
 	$('#whiteButton').addClass('active');
 });
 
-// timeline interactivity ****not working
+$('#grayButton').on('click', function(){
+	$('.collage').css('background-image','url("images/hitsville museum.jpg")');
+	$('li').removeClass('active');
+	$('#grayButton').addClass('active');
+});
+
+// timeline interactivity 
 
 function isElementInViewport(el) {
-  var rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
+	var rect = el.getBoundingClientRect();
+	return (
+		rect.top >= 0 &&
+		rect.left >= 0 &&
+		rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+		rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
 }
 
 // add class when in view
- 
+
+var items = $(".timeline li");
+
 function callbackFunc() {
-  for (var i = 0; i < items.length; i++) {
-    if (isElementInViewport(items[i])) {
-      items[i].classList.add("in-view");
-    }
-  }
+	for (var i = 0; i < items.length; i++) {
+		if (isElementInViewport(items[i])) {
+			items[i].classList.add("in-view");
+		}
+	}
 }
- 
+
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
 
 // alert window for contact submit form
 
 $(".send").on("click" , function() {
-  alert('Currently the form is inactive');
+	alert('Currently the form is inactive');
 });
 
-// hero image switches to a different image ***not working
-
-// var btn =   $('#btn');
-// var idd = $('#idd');
-
-// btn.click(function() {  
-//    idd.toggle(800, function() {
-//       // change the button text according to the state of the "#idd" 
-//       if (idd.hasClass('display-none')) {
-//         btn.attr('src', '../images/faces.jpg'); 
-//           idd.removeClass('hero-image');
-//               } else {
-//         btn.attr('src', '../images/hitsville museum.jpg');
-//           idd.addClass('hero-image');
-//        }
-//     });
-//   });
-
 // youtube videos
-
-$('.button_1').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/QoRBFNOgeHw" frameborder="0" allowfullscreen></iframe>');
+var vidSrc;
+$('.button').on('click', function() {
+	vidSrc = $(this).attr("data-src");
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="'+vidSrc+'" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_2').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/pvEoR4QywgE" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/pvEoR4QywgE" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_3').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/pKQtWMETbfo" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/pKQtWMETbfo" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_4').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/6kduvcqx-BU" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/6kduvcqx-BU" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_5').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/XYPE7rZkYRg" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/XYPE7rZkYRg" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_6').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/sCXEtvbJkkY" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/sCXEtvbJkkY" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_7').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/vZjcM4yEgXg" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/vZjcM4yEgXg" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_8').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/nqAvFx3NxUM" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/nqAvFx3NxUM" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_9').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/zc7rxcjwwYs" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/zc7rxcjwwYs" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_10').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/8iwBM_YB1sE" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/8iwBM_YB1sE" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.button_11').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/RS2nfeN4DEw" frameborder="0" allowfullscreen></iframe>');
+	$('#video, #overlay').fadeIn('slow');
+	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/RS2nfeN4DEw" frameborder="0" allowfullscreen></iframe>');
 });
 
-$('.button_12').on('click', function() {
- $('#video, #overlay').fadeIn('slow');
- $('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/a0l112Qy4yA" frameborder="0" allowfullscreen></iframe>');
-});
+// $('.button_12').on('click', function() {
+// 	$('#video, #overlay').fadeIn('slow');
+// 	$('#video-container').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/a0l112Qy4yA" frameborder="0" allowfullscreen></iframe>');
+// });
 
 // rotating circle around each artist profile
 
@@ -151,12 +136,12 @@ $('.button_12').on('click', function() {
 // 		t.circumference	= t.radius * 2 * Math.PI; //curcumfrence
 // 		t.duration	= 10000; //10 seconds per rotation
 // 		t.start		= Date.now();
-    	
+
 // obj.push(t);
 
 
 // function update(){
-    
+
 // 				for(var i = 0; i < obj.length; i++){
 // 					var delta				= Date.now() - obj[i].start;
 // 					obj.start 				= Date.now();
@@ -174,9 +159,9 @@ $('.button_12').on('click', function() {
 // function draw(){
 //     update();
 //     ctx.clearRect(0,0,element.width,element.height);
-    
+
 //     ctx.save();
-    
+
 //     ctx.translate(0-(camera.x - element.width/2),0-(camera.y-element.height/2));  	    
 //     ctx.scale(scale,scale);
 //     ctx.fillStyle = 'blue';
@@ -186,7 +171,7 @@ $('.button_12').on('click', function() {
 // 		ctx.lineWidth = 1.5;
 // 		ctx.strokeStyle = "white";
 // 		ctx.stroke();
-        
+
 //         ctx.beginPath();
 // 		ctx.arc(obj[i].x,obj[i].y,10,0,Math.PI*2);  
 // 		ctx.lineWidth = 1.5;
@@ -195,25 +180,12 @@ $('.button_12').on('click', function() {
 //         ctx.fillStyle = "white";
 // 		ctx.fill();    
 //     }
-    
+
 //     ctx.restore();
 //     requestAnimationFrame(draw);
 // }
 
 // draw();
-
-
-
-// $(background).on('touchend, mouseup', function(e) {
-// 	if (!$('#video').is(e.target);
-// 		$('#video, #overlay').fadeOut('slow');
-// 		$('#video-container').html(''); 
-// 	}
-// });
-
-
-
-// animate the width in javascript to cause css transition
 
 
 
