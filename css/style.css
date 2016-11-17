@@ -76,16 +76,10 @@ ul li {
 	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-/*custom mouse cursor*/
-
-body {
-	cursor: url('http://static1.squarespace.com/static/5446e19be4b090557e5db038/t/5781e116f7e0aba104d26d3e/1468129558387/cursor2.png'), auto !important;
-}
-
 /*collage image switcher*/
 
 #switcher {
-  margin: 400px 0px 100px 525px;
+  margin: 400px 0px 100px 530px;
   padding: 0px;
   overflow: hidden;
 }
@@ -98,11 +92,11 @@ body {
   border: 3px solid white;
   cursor: pointer;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 #switcher li.active {
-  border-color: yellow;
+  border-color: #456990;
 }
 
 #grayButton {
@@ -148,7 +142,7 @@ h2 {
 	text-align: center;
 }
 
-#marvin_gaye {
+#marvin-gaye {
 	font-style: italic;
 	padding-left: 20px;
 }
@@ -194,6 +188,7 @@ h3 {
 	background-color: #000;
 	overflow: hidden;
 	padding-bottom: 80px;
+	cursor: url('http://static1.squarespace.com/static/5446e19be4b090557e5db038/t/5781e116f7e0aba104d26d3e/1468129558387/cursor2.png'), auto !important;
 }
 
 /*circles*/
@@ -206,6 +201,12 @@ h3 {
 	text-align: center;
 	margin-left: 30px;
 	margin-top: 30px;
+}
+
+.circle div {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .circle{
@@ -236,7 +237,7 @@ a span {
   display: block;
 }
 
-.circle_1 {
+.circle-1 {
 	background-image: url("../images/diana ross.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -244,77 +245,77 @@ a span {
 
 }
 
-.circle_2 {
+.circle-2 {
 	background-image: url("../images/the four tops.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.circle_3 {
+.circle-3 {
 	background-image: url("../images/smokey robinson.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
-.circle_4 {
+.circle-4 {
 	background-image: url("../images/marvin gaye.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center left;
 }
 
-.circle_5 {
-	background-image: url("../images/the temptations.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.circle_6 {
+.circle-5 {
 	background-image: url("../images/al green.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.circle_7 {
+.circle-6 {
+	background-image: url("../images/the temptations.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.circle-7 {
 	background-image: url("../images/barbara mcnair.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center center;
 }
 
-.circle_8 {
+.circle-8 {
 	background-image: url("../images/lionel richie.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.circle_9 {
+.circle-9 {
 	background-image: url("../images/syreeta wright.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 }
 
-.circle_10 {
+.circle-10 {
 	background-image: url("../images/the pointer sisters.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 
-.circle_11 {
+.circle-11 {
 	background-image: url("../images/stevie wonder.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.circle_12 {
+.circle-12 {
 	background-image: url("../images/jackson 5.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -329,8 +330,11 @@ a span {
 }
 
 time {
-	font-family: "Helvetica", sans-serif;
-	font-size: 40px;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+	padding-left: 25px;
 }
 
 /*timeline element styles*/
@@ -463,7 +467,7 @@ time {
 	font-family: "Helvetica", sans-serif;
 	font-size: 15px;
 	color: gray;
-	padding-bottom: 15px;
+	padding: 10px 0px 15px 23px;
 }
 
 #playlists {
@@ -564,6 +568,40 @@ h4 {
 	font-size: 15px;
 	border-radius: 40px;
 }
+
+.icon-footer {
+	padding-bottom: 70px;
+}
+
+.icons {
+	padding: 10px;
+	overflow: hidden;
+	float: right;
+	margin-right: 490px;
+}
+
+.instagram {
+	float: left;
+	padding-right: 50px;
+	margin-top: 12px;
+}
+
+.facebook {
+	float: right;
+	padding-right: 50px;
+	color: white;
+	margin-top: 14px;
+}
+
+.twitter {
+	float: left;
+	padding-right: 50px;
+	padding-top: 5px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+
 
 
 

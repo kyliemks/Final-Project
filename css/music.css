@@ -7,12 +7,12 @@
 }
 
 .clearfix:after {
- content: ".";
- display: block;
- clear: both;
- visibility: hidden;
- line-height: 0;
- height: 0;
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 
 /*video styles
@@ -20,14 +20,14 @@
 
 #overlay {
 	position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 98;
-  height: 100%;
-  width: 100%;
-  background: #ffffff;
-  opacity: 0.6;
-  display: none;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	opacity: 0.6;
+	display: none;
 }
 
 #video {
@@ -80,24 +80,29 @@
 /*play button for video popup*/
 
 .button {
-  background-color: #c6c6c6;
-  border-radius: 10px;
-  color: #000;
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-  text-align: center;
-  margin: 0px 280px 20px 165px;
-  clear: both;
-  width: 10%;
+	background-color: #c6c6c6;
+	border-radius: 10px;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	margin: 0px 280px 20px 165px;
+	clear: both;
+	width: 10%;
 }
 
 /*container for description and image*/
 
-.musicians_container {
+.musicians-container {
 	margin: 5px 25px -20px 25px;
 	width: 100%;
 	overflow: hidden;
 	float: right;
+}
+
+a.musician-name:hover, a.musician-name:visited, a.musician-name:link,  a.musician-name:active {
+	color: #000;
+	text-decoration: none;
 }
 
 /*diana ross
@@ -110,7 +115,7 @@ header {
 	padding: 10px;
 }
 
-.diana_ross_image {
+.diana-ross-image {
 	margin: 65px 65px 0px 95px;
 	border-radius: 50%;
 	height: 325px;
@@ -122,7 +127,7 @@ header {
 	float: left;
 }
 
-.diana_ross_description {
+.diana-ross-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -143,7 +148,7 @@ header {
 	padding: 10px;
 }
 
-.four_tops_image {
+.four-tops-image {
 	margin: 65px 65px 0px 95px;
 	float: left;
 	border-radius: 50%;
@@ -155,7 +160,7 @@ header {
 	background-position: top right center;
 }
 
-.four_tops_description {
+.four-tops-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -169,11 +174,11 @@ header {
 /*smokey robinson*/
 
 
-.smokey_robinson_image {
+.smokey-robinson-image {
 	background-image: url("../images/smokey robinson 2.jpg");
 }
 
-.smokey_robinson_description {
+.smokey-robinson-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -186,28 +191,11 @@ header {
 
 /*marvin gaye*/
 
-.marvin_gaye_image {
+.marvin-gaye-image {
 	background-image: url("../images/marvin gaye 2.jpg");
 }
 
-.marvin_gaye_description {
-	color: gray;
-	font-family: "Raleway" , sans-serif;
-	font-size: 18px;
-	font-style: italic;
-	float: left;
-	width: 55%;
-	margin: 60px 30px 50px 25px;
-	line-height: 27px;
-}
-
-/*the temptations*/
-
-.the_temptations_image {
-	background-image: url("../images/the temptations 2.jpg");
-}
-
-.the_temptations_description {
+.marvin-gaye-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -220,11 +208,28 @@ header {
 
 /*al green*/
 
-.al_green_image {
+.al-green-image {
 	background-image: url("../images/al green 2.jpg");
 }
 
-.al_green_description {
+.al-green-description {
+	color: gray;
+	font-family: "Raleway" , sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	float: left;
+	width: 55%;
+	margin: 60px 30px 50px 25px;
+	line-height: 27px;
+}
+
+/*the temptations*/
+
+.the-temptations-image {
+	background-image: url("../images/the temptations 2.jpg");
+}
+
+.the-temptations-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -237,11 +242,11 @@ header {
 
 /*barbara mcnair*/
 
-.barbara_mcnair_image {
+.barbara-mcnair-image {
 	background-image: url("../images/barbara mcnair 2.jpg");
 }
 
-.barbara_mcnair_description {
+.barbara-mcnair-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -254,12 +259,12 @@ header {
 
 /*lionel richie*/
 
-.lionel_richie_image {
+.lionel-richie-image {
 	background-image: url("../images/lionel richie 2.jpg");
 
 }
 
-.lionel_richie_description {
+.lionel-richie-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -272,11 +277,11 @@ header {
 
 /*syreeta wright*/
 
-.syreeta_wright_image {
+.syreeta-wright-image {
 	background-image: url("../images/syreeta wright 2.jpg");
 }
 
-.syreeta_wright_description {
+.syreeta-wright-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -289,7 +294,7 @@ header {
 
 /*the pointer sisters*/
 
-.the_pointer_sisters_image {
+.the-pointer-sisters-image {
 	background-image: url("../images/the pointer sisters 2.jpg");
 }
 
@@ -306,11 +311,11 @@ header {
 
 /*stevie wonder*/
 
-.stevie_wonder_image {
+.stevie-wonder-image {
 	background-image: url("../images/stevie wonder 2.jpg");
 }
 
-.stevie_wonder_description {
+.stevie-wonder-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -323,11 +328,11 @@ header {
 
 /*the jackson five*/
 
-.the_jackson_five_image {
+.the-jackson-five-image {
 	background-image: url("../images/the jackson 5 2.jpg");
 }
 
-.the_jackson_five_description {
+.the-jackson-five-description {
 	color: gray;
 	font-family: "Raleway" , sans-serif;
 	font-size: 18px;
@@ -337,3 +342,4 @@ header {
 	margin: 60px 30px 50px 25px;
 	line-height: 27px;
 }
+

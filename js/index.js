@@ -64,7 +64,6 @@ $('.button').on('click', function() {
 	$('#video-container').html('<iframe width="560" height="315" src="'+vidSrc+'" frameborder="0" allowfullscreen></iframe>');
 });
 
-
 // rotating circle around each artist profile
 
 // var element 		= document.getElementsByClassName('image');
